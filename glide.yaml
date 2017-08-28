@@ -1,0 +1,22 @@
+package: github.com/lnquy/gc-pubsub
+import:
+- package: cloud.google.com/go
+  version: 26cb9947316ae45307e333fdd0c6e8f192274096
+  subpackages:
+  - pubsub
+- package: github.com/Sirupsen/logrus
+- package: github.com/kelseyhightower/envconfig
+- package: github.com/rs/xid
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: github.com/googleapis/gax-go
+  version: 9af46dd5a1713e8b5cd71106287eba3cefdde50b
+- package: google.golang.org/genproto
+  version: 411e09b969b1170a9f0c467558eb4c4c110d9c77
+  subpackages:
+  - googleapis/api/annotations
+  - googleapis/iam/v1
+  - googleapis/pubsub/v1
+  - googleapis/rpc/status
+  - protobuf/field_mask

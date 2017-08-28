@@ -12,3 +12,12 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+.idea/
+vendor/
+
+publisher/publisher
+publisher/publisher.exe
+publisher/publisher.bin
+subscriber/subscriber
+subscriber/subscriber.exe
+subscriber/subscriber.bin
